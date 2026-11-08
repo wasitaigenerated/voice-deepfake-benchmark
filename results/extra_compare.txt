@@ -1,0 +1,89 @@
+
+===== sonar  (n=3948, AI=1674)
+                        Free (Mini)         Paid      Spectra       NII-2B     DF_Arena
+EER                           0.13%        0.30%        0.48%        0.43%        1.26%
+AUC                          0.9994       1.0000       0.9998       0.9999       0.9994
+erkannt @1% Fehlalarm         99.9%        99.9%        99.6%        99.8%        98.3%
+  sonar:AudioGen               0.0%         0.0%         0.2%         2.0%         3.0%
+  sonar:FlashSpeech            0.0%         0.0%         0.0%         0.0%         2.5%
+  sonar:NaturalSpeech3         3.1%         2.6%         6.4%         0.0%         2.8%
+  sonar:OpenAI                 0.0%         0.0%         0.0%         0.0%         0.2%
+  sonar:PromptTTS2             0.0%         0.0%         0.0%         0.2%         0.0%
+  sonar:VALLE                  1.1%         0.0%         0.0%         0.1%         0.0%
+  sonar:VoiceBox               0.0%         0.0%         0.0%         0.0%         1.0%
+  sonar:xTTS                   0.0%         0.0%         0.0%         0.0%         0.0%
+
+===== mlaad_tiny  (n=15290, AI=7900)
+                        Free (Mini)         Paid      Spectra       NII-2B     DF_Arena
+EER                           3.09%        0.43%        0.71%        4.72%        3.24%
+AUC                          0.9911       0.9999       0.9994       0.9893       0.9951
+erkannt @1% Fehlalarm         94.6%        99.7%        99.4%        92.1%        94.5%
+  mlaad:CaroTTS                3.0%         0.0%         0.0%         0.0%         2.0%
+  mlaad:Cartesia.ai (S         0.5%         0.0%         0.4%         0.5%         0.9%
+  mlaad:Chatterbox             0.2%         0.0%         0.0%         0.0%         0.0%
+  mlaad:Chatterbox Mul         0.1%         0.0%         0.0%         1.0%         2.0%
+  mlaad:DeepGram               5.0%         3.0%         5.9%         6.0%        10.0%
+  mlaad:Edge-TTS               0.1%         0.0%         0.0%         1.5%         1.0%
+  mlaad:FireRedTTS-2.0         1.0%         0.0%         0.0%         1.0%         1.0%
+  mlaad:FishTTS                0.0%         0.0%         0.0%         0.0%         0.0%
+  mlaad:Higgs-Audio-V2         1.5%         0.1%         0.6%         3.5%         3.0%
+  mlaad:Index-TTS-1.5          5.0%         0.0%         0.0%         3.1%         1.1%
+  mlaad:Index-TTS-2.0          3.0%         0.2%         0.1%         1.0%         1.0%
+  mlaad:Indri-TTS-0.1          0.0%         0.0%         0.0%         0.0%         0.0%
+  mlaad:Kani-TTS-370M          2.0%         0.5%         1.1%         1.5%         6.5%
+  mlaad:Kartoffelbox           0.0%         0.0%         0.0%         0.0%         0.1%
+  mlaad:Kitten-TTS-Nan         0.0%         0.0%         0.0%         0.0%         0.0%
+  mlaad:Kitten-TTS-Nan         0.0%         0.0%         0.0%         0.1%         0.0%
+  mlaad:Kyutai-TTS             1.0%         0.1%         2.1%         4.0%         6.0%
+  mlaad:Llasa-1B-Multi         4.5%         0.0%         0.0%        10.5%         5.5%
+  mlaad:Llasa-8B              14.0%         0.0%         0.1%        20.1%        12.0%
+  mlaad:Mars5                  0.8%         0.0%         0.0%         1.0%         0.1%
+  mlaad:Marvis-TTS             0.0%         0.0%         0.0%         0.0%         0.0%
+  mlaad:MatchaTTS              0.0%         0.0%         0.0%         0.0%         0.0%
+  mlaad:Maya1 TTS              0.0%         0.0%         0.1%         0.1%         0.0%
+  mlaad:MegaTTS3               3.1%         1.0%         1.0%        11.1%         3.9%
+  mlaad:MeloTTS                0.9%         0.0%         0.0%         0.2%         0.1%
+  mlaad:Metavoice-1B           0.1%         0.0%         0.1%         1.0%         1.0%
+  mlaad:Microsoft Vibe         4.0%         0.1%         1.0%         8.0%         6.0%
+  mlaad:Microsoft Vibe         1.1%         2.0%         2.8%        17.0%         7.0%
+  mlaad:MiniCPM-o-2.6          0.0%         0.0%         0.0%         0.0%         0.0%
+  mlaad:NVidia Magpie-         1.0%         0.0%         0.8%         0.0%         2.8%
+  mlaad:Nari Dia-1.6B          2.0%         0.0%         0.0%         8.8%         5.9%
+  mlaad:Nari Dia2              0.0%         0.0%         0.0%         0.0%         0.1%
+  mlaad:NeuTTS-Air             0.2%         0.0%         0.0%         1.0%         0.0%
+  mlaad:OpenVoiceV2            0.0%         0.0%         0.0%         0.1%         0.0%
+  mlaad:Openaudio-S1-M         1.9%         0.0%         0.1%         2.0%         1.2%
+  mlaad:OuteTTS                0.5%         0.0%         0.0%         0.1%         0.5%
+  mlaad:Qwen2.5-Omni           0.1%         0.0%         1.0%         0.0%         2.0%
+  mlaad:RVC                    1.0%         0.5%         0.5%         0.5%         2.5%
+  mlaad:Resemble.ai (A         1.9%         0.0%         0.1%         0.4%         1.0%
+  mlaad:Ringg Squirrel         0.8%         0.0%         0.0%         1.0%         0.0%
+  mlaad:SoulX-Podcast          2.9%         0.0%         0.0%         3.0%         4.0%
+  mlaad:Spark-TTS-0.5B        16.0%         0.1%         0.0%        23.0%         1.9%
+  mlaad:Step-Audio-Edi         2.0%         0.0%         0.0%         0.0%         0.9%
+  mlaad:Supertonic             0.0%         0.0%         0.0%         0.0%         0.0%
+  mlaad:Veena                  0.0%         0.0%         0.0%         0.0%         0.0%
+  mlaad:VoxCPM-0.5B           20.8%         2.0%         2.0%        23.1%         6.8%
+  mlaad:VoxCPM-1.5            17.9%         2.0%         2.0%        10.0%         5.0%
+  mlaad:Voxtream               0.0%         0.0%         0.0%         0.0%         0.0%
+  mlaad:WhisperSpeech          0.1%         0.0%         0.0%         0.0%         0.0%
+  mlaad:ZipVoice               0.1%         0.0%         0.0%         0.0%         0.0%
+  mlaad:e2-tts                 0.8%         0.0%         0.0%         1.0%         1.0%
+  mlaad:f5-tts                 0.2%         0.0%         0.0%         0.1%         0.0%
+  mlaad:facebook_mms-t         0.1%         0.0%         0.0%         0.0%         1.0%
+  mlaad:facebook_mms-t         1.1%         0.0%         0.0%         0.9%         1.0%
+  mlaad:griffin_lim            6.1%         0.1%         0.5%         2.4%         4.9%
+  mlaad:kokoro                 0.2%         0.0%         0.0%         2.0%         0.9%
+  mlaad:microsoft_spee         0.2%         0.0%         0.0%         0.0%         0.0%
+  mlaad:minimax_speech         3.1%         2.0%         3.0%         6.0%         9.0%
+  mlaad:minimax_speech         5.0%         2.0%         4.0%        12.0%        14.8%
+  mlaad:optispeech             2.0%         0.2%         0.2%         1.0%         1.0%
+  mlaad:orpheus-tts-0.         0.2%         0.0%         0.0%         0.0%         1.0%
+  mlaad:parler_tts_lar         0.1%         0.0%         0.0%         0.1%         1.0%
+  mlaad:parler_tts_min         0.1%         0.0%         0.0%         0.0%         1.0%
+  mlaad:parler_tts_min         0.1%         0.0%         0.0%         0.0%         1.0%
+  mlaad:sesame_csm             1.0%         0.0%         0.1%         0.1%         1.8%
+  mlaad:suno_bark              0.8%         0.0%         0.0%         0.1%         0.0%
+  mlaad:suno_bark-smal         0.1%         0.0%         0.0%         0.1%         0.1%
+  mlaad:vixTTS                 0.0%         0.0%         0.0%         0.0%         0.0%
+  mlaad:zonosTTS-v0.1          9.0%         0.0%         0.0%        10.0%         4.9%

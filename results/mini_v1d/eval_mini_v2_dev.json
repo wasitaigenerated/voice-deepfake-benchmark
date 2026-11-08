@@ -1,0 +1,415 @@
+{
+  "mean": {
+    "n": 6000,
+    "n_ai": 4582,
+    "eer": 0.013574304062194668,
+    "eer_thr": -1.1640625,
+    "auc": 0.9974770965555411,
+    "tpr@fpr1%": 0.983195111305107,
+    "tpr@fpr0.1%": 0.9698821475338281
+  },
+  "topk": {
+    "n": 6000,
+    "n_ai": 4582,
+    "eer": 0.014825135949280886,
+    "eer_thr": -0.51953125,
+    "auc": 0.9969118596778095,
+    "tpr@fpr1%": 0.9821038847664775,
+    "tpr@fpr0.1%": 0.9709733740724574,
+    "per_generator": {
+      "asvspoof2019:A01": {
+        "n": 66,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A02": {
+        "n": 70,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A03": {
+        "n": 71,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A04": {
+        "n": 73,
+        "eer": 0.04099928512085324,
+        "recall@eer_thr": 0.9178082191780822
+      },
+      "asvspoof2019:A05": {
+        "n": 68,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A06": {
+        "n": 66,
+        "eer": 0.01145445997350087,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A07": {
+        "n": 23,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A08": {
+        "n": 21,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A09": {
+        "n": 33,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A10": {
+        "n": 23,
+        "eer": 0.03443306555466975,
+        "recall@eer_thr": 0.8260869565217391
+      },
+      "asvspoof2019:A11": {
+        "n": 20,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A12": {
+        "n": 20,
+        "eer": 0.040162200282087425,
+        "recall@eer_thr": 0.95
+      },
+      "asvspoof2019:A13": {
+        "n": 21,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A14": {
+        "n": 25,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A15": {
+        "n": 15,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A16": {
+        "n": 24,
+        "eer": 0.04163728255759287,
+        "recall@eer_thr": 0.9166666666666666
+      },
+      "asvspoof2019:A17": {
+        "n": 23,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A18": {
+        "n": 23,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A19": {
+        "n": 31,
+        "eer": 0.0323490604668092,
+        "recall@eer_thr": 0.967741935483871
+      },
+      "asvspoof5:A01": {
+        "n": 32,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A02": {
+        "n": 19,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A03": {
+        "n": 20,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A04": {
+        "n": 35,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A05": {
+        "n": 28,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A06": {
+        "n": 23,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A07": {
+        "n": 27,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A08": {
+        "n": 36,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A09": {
+        "n": 22,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A10": {
+        "n": 21,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A11": {
+        "n": 23,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A13": {
+        "n": 25,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A14": {
+        "n": 30,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A15": {
+        "n": 21,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A16": {
+        "n": 24,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "chatterbox_ml": {
+        "n": 1,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake:academicodec_hifi_16k_320d": {
+        "n": 16,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake:academicodec_hifi_16k_320d_large_uni": {
+        "n": 13,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake:funcodec-funcodec_zh_en_general_16k_nq32ds640": {
+        "n": 15,
+        "eer": 0.0035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "de2024": {
+        "n": 33,
+        "eer": 0.06683121767748001,
+        "recall@eer_thr": 0.5151515151515151
+      },
+      "dfadd:GradTTS": {
+        "n": 13,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "dfadd:NaturalSpeech2": {
+        "n": 7,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "dfadd:matcha": {
+        "n": 18,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "dfadd:pflow": {
+        "n": 15,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "f5tts": {
+        "n": 3,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "fal:elevenlabs/tts/eleven-v4": {
+        "n": 1,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "fal:fal-ai/bytedance/seed-speech/tts/v2": {
+        "n": 1,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "fal:fal-ai/chatterbox/text-to-speech/multilingual": {
+        "n": 1,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "fal:fal-ai/elevenlabs/tts/eleven-v3": {
+        "n": 1,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "fal:heygen/heygen-voice": {
+        "n": 2,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "fal:xai/tts/v1": {
+        "n": 1,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "indextts2": {
+        "n": 4,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "kokoro": {
+        "n": 4,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "resynth:dac_24k": {
+        "n": 42,
+        "eer": 0.2585969507690241,
+        "recall@eer_thr": 0.023809523809523808
+      },
+      "resynth:dac_44k": {
+        "n": 32,
+        "eer": 0.03290285613540195,
+        "recall@eer_thr": 0.8125
+      },
+      "resynth:encodec_1.5": {
+        "n": 30,
+        "eer": 0.0035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "resynth:encodec_6": {
+        "n": 34,
+        "eer": 0.022463287148427765,
+        "recall@eer_thr": 0.9705882352941176
+      },
+      "resynth:mimi": {
+        "n": 49,
+        "eer": 0.019724532972568418,
+        "recall@eer_thr": 0.9795918367346939
+      },
+      "shiftyspeech:Glow-TTS": {
+        "n": 27,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "shiftyspeech:Grad-TTS": {
+        "n": 21,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "shiftyspeech:VITS": {
+        "n": 19,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "shiftyspeech:XTTS": {
+        "n": 284,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "shiftyspeech:hfg_vocoded": {
+        "n": 16,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "sparktts": {
+        "n": 3,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a01": {
+        "n": 323,
+        "eer": 0.008875274554926262,
+        "recall@eer_thr": 0.9969040247678018
+      },
+      "spoofceleb:a02": {
+        "n": 295,
+        "eer": 0.01002127608711242,
+        "recall@eer_thr": 0.9932203389830508
+      },
+      "spoofceleb:a03": {
+        "n": 313,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a04": {
+        "n": 281,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a05": {
+        "n": 317,
+        "eer": 0.0029877243017890727,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a06": {
+        "n": 337,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a07": {
+        "n": 303,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a08": {
+        "n": 320,
+        "eer": 0.0029729372355430162,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a09": {
+        "n": 258,
+        "eer": 0.007754671389991356,
+        "recall@eer_thr": 0.9961240310077519
+      },
+      "spoofceleb:a10": {
+        "n": 38,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      },
+      "xtts2": {
+        "n": 7,
+        "eer": 0.00035260930888575404,
+        "recall@eer_thr": 1.0
+      }
+    }
+  },
+  "max": {
+    "n": 6000,
+    "n_ai": 4582,
+    "eer": 0.014825135949280886,
+    "eer_thr": -0.3671875,
+    "auc": 0.996900316378741,
+    "tpr@fpr1%": 0.9805761676123963,
+    "tpr@fpr0.1%": 0.9600611086861632
+  },
+  "human_fpr_by_source": {
+    "asvspoof2019": 0.0,
+    "asvspoof5": 0.0,
+    "codecfake_plus": 0.0,
+    "de2024": 0.16666666666666666,
+    "dfadd": 0.0,
+    "fleurs": 0.0,
+    "libritts": 0.0,
+    "mls": 0.0,
+    "peoples_speech": 0.008771929824561403,
+    "pod:podcast": 0.03404255319148936,
+    "spoofceleb": 0.032362459546925564,
+    "voxpopuli": 0.0
+  }
+}

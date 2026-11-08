@@ -1,0 +1,376 @@
+{
+  "mean": {
+    "n": 15290,
+    "n_ai": 7900,
+    "eer": 0.005820729346876569,
+    "eer_thr": -2.4929487705230713,
+    "auc": 0.9995631626727874,
+    "tpr@fpr1%": 0.9959493670886076,
+    "tpr@fpr0.1%": 0.9879746835443038
+  },
+  "topk": {
+    "n": 15290,
+    "n_ai": 7900,
+    "eer": 0.00706257172710302,
+    "eer_thr": 0.07920952141284943,
+    "auc": 0.9994245045477126,
+    "tpr@fpr1%": 0.9940506329113924,
+    "tpr@fpr0.1%": 0.9825316455696202,
+    "per_generator": {
+      "mlaad:CaroTTS": {
+        "n": 100,
+        "eer": 0.00013531799729366023,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Cartesia.ai (Sonic-3)": {
+        "n": 200,
+        "eer": 0.0044621109607577685,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Chatterbox": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Chatterbox Multilingual": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:DeepGram": {
+        "n": 100,
+        "eer": 0.05916102841677942,
+        "recall@eer_thr": 0.87
+      },
+      "mlaad:Edge-TTS": {
+        "n": 200,
+        "eer": 0.00013531799729366023,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:FireRedTTS-2.0": {
+        "n": 100,
+        "eer": 0.00013531799729366023,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:FishTTS": {
+        "n": 200,
+        "eer": 6.765899864680236e-05,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Higgs-Audio-V2": {
+        "n": 200,
+        "eer": 0.0062212449255751295,
+        "recall@eer_thr": 0.99
+      },
+      "mlaad:Index-TTS-1.5": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Index-TTS-2.0": {
+        "n": 100,
+        "eer": 0.001285520974289578,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Indri-TTS-0.1": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Kani-TTS-370M": {
+        "n": 200,
+        "eer": 0.011021650879566965,
+        "recall@eer_thr": 0.985
+      },
+      "mlaad:Kartoffelbox": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Kitten-TTS-Nano-0.1": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Kitten-TTS-Nano-0.2": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Kyutai-TTS": {
+        "n": 100,
+        "eer": 0.021096075778078476,
+        "recall@eer_thr": 0.97
+      },
+      "mlaad:Llasa-1B-Multilingual": {
+        "n": 200,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Llasa-8B": {
+        "n": 100,
+        "eer": 0.0012178619756427755,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Mars5": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Marvis-TTS": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:MatchaTTS": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Maya1 TTS": {
+        "n": 100,
+        "eer": 0.001285520974289578,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:MegaTTS3": {
+        "n": 100,
+        "eer": 0.010006765899864708,
+        "recall@eer_thr": 0.98
+      },
+      "mlaad:MeloTTS": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Metavoice-1B": {
+        "n": 100,
+        "eer": 0.0005412719891745854,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Microsoft VibeVoice 1.5B": {
+        "n": 100,
+        "eer": 0.010006765899864708,
+        "recall@eer_thr": 0.99
+      },
+      "mlaad:Microsoft VibeVoice Large": {
+        "n": 100,
+        "eer": 0.0281935047361299,
+        "recall@eer_thr": 0.96
+      },
+      "mlaad:MiniCPM-o-2.6": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:NVidia Magpie-TTS Multilingual": {
+        "n": 100,
+        "eer": 0.007571041948579156,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Nari Dia-1.6B": {
+        "n": 100,
+        "eer": 0.0003382949932341228,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Nari Dia2": {
+        "n": 100,
+        "eer": 0.00047361299052772754,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:NeuTTS-Air": {
+        "n": 100,
+        "eer": 6.765899864680236e-05,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:OpenVoiceV2": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Openaudio-S1-Mini": {
+        "n": 100,
+        "eer": 0.0005412719891745854,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:OuteTTS": {
+        "n": 200,
+        "eer": 0.00013531799729366023,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Qwen2.5-Omni": {
+        "n": 100,
+        "eer": 0.01020974289580517,
+        "recall@eer_thr": 0.98
+      },
+      "mlaad:RVC": {
+        "n": 200,
+        "eer": 0.0052063599458728165,
+        "recall@eer_thr": 0.995
+      },
+      "mlaad:Resemble.ai (April 12th, 2025)": {
+        "n": 200,
+        "eer": 0.0008795669824086527,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Ringg Squirrel TTS v1.0": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:SoulX-Podcast": {
+        "n": 100,
+        "eer": 0.00027063599458726495,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Spark-TTS-0.5B": {
+        "n": 100,
+        "eer": 0.00047361299052772754,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Step-Audio-EditX": {
+        "n": 100,
+        "eer": 0.00013531799729366023,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Supertonic": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:Veena": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:VoxCPM-0.5B": {
+        "n": 100,
+        "eer": 0.02001353179972936,
+        "recall@eer_thr": 0.96
+      },
+      "mlaad:VoxCPM-1.5": {
+        "n": 100,
+        "eer": 0.02001353179972936,
+        "recall@eer_thr": 0.96
+      },
+      "mlaad:Voxtream": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:WhisperSpeech": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:ZipVoice": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:e2-tts": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:f5-tts": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:facebook_mms-tts-deu": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:facebook_mms-tts-eng": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:griffin_lim": {
+        "n": 200,
+        "eer": 0.005003382949932354,
+        "recall@eer_thr": 0.995
+      },
+      "mlaad:kokoro": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:microsoft_speecht5_tts": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:minimax_speech-02-turbo": {
+        "n": 100,
+        "eer": 0.030020297699594065,
+        "recall@eer_thr": 0.93
+      },
+      "mlaad:minimax_speech-2.6-hd": {
+        "n": 100,
+        "eer": 0.04002706359945872,
+        "recall@eer_thr": 0.92
+      },
+      "mlaad:optispeech": {
+        "n": 100,
+        "eer": 0.0015561569688768428,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:orpheus-tts-0.1-finetune": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:parler_tts_large_v1": {
+        "n": 100,
+        "eer": 0.00013531799729366023,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:parler_tts_mini_v0.1": {
+        "n": 100,
+        "eer": 0.0003382949932341228,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:parler_tts_mini_v1": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:sesame_csm": {
+        "n": 100,
+        "eer": 0.0008795669824086527,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:suno_bark": {
+        "n": 100,
+        "eer": 0.0002029769959404626,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:suno_bark-small": {
+        "n": 100,
+        "eer": 0.00013531799729366023,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:vixTTS": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "mlaad:zonosTTS-v0.1": {
+        "n": 100,
+        "eer": 0.00013531799729366023,
+        "recall@eer_thr": 1.0
+      }
+    }
+  },
+  "max": {
+    "n": 15290,
+    "n_ai": 7900,
+    "eer": 0.0075863722786523105,
+    "eer_thr": 1.4691593647003174,
+    "auc": 0.9993253627036193,
+    "tpr@fpr1%": 0.9932911392405064,
+    "tpr@fpr0.1%": 0.970253164556962
+  }
+}

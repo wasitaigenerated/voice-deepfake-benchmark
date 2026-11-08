@@ -1,0 +1,74 @@
+{
+  "mean": {
+    "n": 3948,
+    "n_ai": 1674,
+    "eer": 0.002294127474993919,
+    "eer_thr": -2.515625,
+    "auc": 0.9999879159665808,
+    "tpr@fpr1%": 1.0,
+    "tpr@fpr0.1%": 0.996415770609319
+  },
+  "topk": {
+    "n": 3948,
+    "n_ai": 1674,
+    "eer": 0.0017755648234838077,
+    "eer_thr": -2.40625,
+    "auc": 0.9999869965292556,
+    "tpr@fpr1%": 0.9994026284348865,
+    "tpr@fpr0.1%": 0.9970131421744325,
+    "per_generator": {
+      "sonar:AudioGen": {
+        "n": 100,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "sonar:FlashSpeech": {
+        "n": 118,
+        "eer": 0.0013192612137203352,
+        "recall@eer_thr": 0.9915254237288136
+      },
+      "sonar:NaturalSpeech3": {
+        "n": 32,
+        "eer": 0.005716798592788064,
+        "recall@eer_thr": 0.96875
+      },
+      "sonar:OpenAI": {
+        "n": 600,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "sonar:PromptTTS2": {
+        "n": 25,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "sonar:VALLE": {
+        "n": 95,
+        "eer": 0.001978891820580475,
+        "recall@eer_thr": 0.9894736842105263
+      },
+      "sonar:VoiceBox": {
+        "n": 104,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      },
+      "sonar:xTTS": {
+        "n": 600,
+        "eer": 0.0,
+        "recall@eer_thr": 1.0
+      }
+    }
+  },
+  "max": {
+    "n": 3948,
+    "n_ai": 1674,
+    "eer": 0.0017755648234838077,
+    "eer_thr": -2.40625,
+    "auc": 0.9999859457437407,
+    "tpr@fpr1%": 0.9994026284348865,
+    "tpr@fpr0.1%": 0.9970131421744325
+  },
+  "human_fpr_by_source": {
+    "sonar": 0.0021987686895338612
+  }
+}

@@ -1,0 +1,11 @@
+torch
+torchaudio
+transformers
+safetensors
+huggingface_hub
+onnxruntime
+soundfile
+pyarrow
+numpy
+scikit-learn
+einops

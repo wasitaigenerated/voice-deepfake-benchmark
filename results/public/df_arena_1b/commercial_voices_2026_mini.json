@@ -1,0 +1,25 @@
+{
+  "model": "df_arena_1b",
+  "dataset": "commercial_voices_2026_mini",
+  "n": 4284,
+  "n_ai": 2084,
+  "eer": 0.07143037864247079,
+  "auc": 0.9792025824463445,
+  "tpr_at_fpr_1pct": 0.8584452975047985,
+  "per_system_eer": {
+    "alibaba/qwen-audio-3-tts": 0.06007518796992484,
+    "bytedance/seed-speech/tts/v2": 0.02446784922394678,
+    "chatterbox/text-to-speech/multilingual": 0.005441370223978932,
+    "elevenlabs/tts/eleven-v3": 0.09115384615384614,
+    "elevenlabs/tts/eleven-v4": 0.15582339791356184,
+    "google/gemini-3.8-flash-tts": 0.027752525252525244,
+    "heygen/heygen-voice": 0.11963302752293578,
+    "inworld-tts": 0.07308725945587262,
+    "minimax/speech-02-hd": 0.05407248157248157,
+    "minimax/speech-2.8-hd": 0.08739950525664808,
+    "openai/gpt-4o-mini-tts": 0.0,
+    "openai/tts-1-hd": 0.014188311688311663,
+    "vibevoice/7b": 0.11814171122994653,
+    "xai/tts/v1": 0.14404545454545453
+  }
+}

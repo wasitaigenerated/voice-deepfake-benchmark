@@ -1,0 +1,526 @@
+{
+  "mean": {
+    "n": 22867,
+    "n_ai": 19824,
+    "eer": 0.049364244324753885,
+    "eer_thr": -1.7856322526931763,
+    "auc": 0.9813305494529977,
+    "tpr@fpr1%": 0.9430992736077481,
+    "tpr@fpr0.1%": 0.9114709443099274
+  },
+  "topk": {
+    "n": 22867,
+    "n_ai": 19824,
+    "eer": 0.049364244324753885,
+    "eer_thr": -1.7856322526931763,
+    "auc": 0.9813305494529977,
+    "tpr@fpr1%": 0.9430992736077481,
+    "tpr@fpr0.1%": 0.9114709443099274,
+    "per_generator": {
+      "asvspoof2019:A01": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A02": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A03": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A04": {
+        "n": 300,
+        "eer": 0.0036384050827034838,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A05": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A06": {
+        "n": 300,
+        "eer": 0.003309782013364033,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A07": {
+        "n": 94,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A08": {
+        "n": 90,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A09": {
+        "n": 96,
+        "eer": 0.00032862306933945096,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A10": {
+        "n": 91,
+        "eer": 0.009109359257239623,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A11": {
+        "n": 93,
+        "eer": 0.020447068717557314,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A12": {
+        "n": 97,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A13": {
+        "n": 105,
+        "eer": 0.0009858692080184084,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A14": {
+        "n": 119,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A15": {
+        "n": 108,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A16": {
+        "n": 101,
+        "eer": 0.00774379113889045,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A17": {
+        "n": 112,
+        "eer": 0.00032862306933945096,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A18": {
+        "n": 121,
+        "eer": 0.00032862306933945096,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof2019:A19": {
+        "n": 120,
+        "eer": 0.007617208894731068,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A01": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A02": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A03": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A04": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A05": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A06": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A07": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A08": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A09": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A10": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A11": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A12": {
+        "n": 300,
+        "eer": 0.003145470478694252,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A13": {
+        "n": 300,
+        "eer": 0.043191477708401815,
+        "recall@eer_thr": 0.9666666666666667
+      },
+      "asvspoof5:A14": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A15": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "asvspoof5:A16": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "chatterbox_ml": {
+        "n": 23,
+        "eer": 0.0006572461386789574,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake:academicodec_hifi_16k_320d": {
+        "n": 300,
+        "eer": 0.00032862306933945096,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake:academicodec_hifi_16k_320d_large_uni": {
+        "n": 300,
+        "eer": 0.00032862306933945096,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake:audiodec_24k_320d": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake:funcodec-funcodec_zh_en_general_16k_nq32ds640": {
+        "n": 300,
+        "eer": 0.003309782013364033,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:CLAMTTS": {
+        "n": 74,
+        "eer": 0.00032862306933945096,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:ELLAV": {
+        "n": 8,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:GPST": {
+        "n": 30,
+        "eer": 0.06668857487128926,
+        "recall@eer_thr": 0.9
+      },
+      "codecfake_plus:MASKGCT": {
+        "n": 300,
+        "eer": 0.0026525358746850754,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:NS2": {
+        "n": 22,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:NS3": {
+        "n": 32,
+        "eer": 0.00032862306933945096,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:RALLE": {
+        "n": 5,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:SIMPLESPEECH1": {
+        "n": 32,
+        "eer": 0.0004929346040091764,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:SIMPLESPEECH2": {
+        "n": 29,
+        "eer": 0.0004929346040091764,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:SINGLECODEC": {
+        "n": 12,
+        "eer": 0.013802168912257662,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:SPEECHX": {
+        "n": 8,
+        "eer": 0.0034505422280644016,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:TACOLM": {
+        "n": 8,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:TI1G1R": {
+        "n": 6,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:UNIAUDIO": {
+        "n": 11,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:USLM": {
+        "n": 5,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "codecfake_plus:VALLE": {
+        "n": 55,
+        "eer": 0.018128043497744436,
+        "recall@eer_thr": 0.9818181818181818
+      },
+      "codecfake_plus:VIOLA": {
+        "n": 7,
+        "eer": 0.14290408900990562,
+        "recall@eer_thr": 0.7142857142857143
+      },
+      "dfadd:GradTTS": {
+        "n": 300,
+        "eer": 0.00032862306933945096,
+        "recall@eer_thr": 1.0
+      },
+      "dfadd:NaturalSpeech2": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "dfadd:StyleTTS2": {
+        "n": 300,
+        "eer": 0.0362432906123343,
+        "recall@eer_thr": 0.97
+      },
+      "dfadd:matcha": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "dfadd:pflow": {
+        "n": 300,
+        "eer": 0.0004929346040091764,
+        "recall@eer_thr": 1.0
+      },
+      "f5tts": {
+        "n": 112,
+        "eer": 0.008900697150368524,
+        "recall@eer_thr": 0.9910714285714286
+      },
+      "fal:alibaba/qwen-audio-3-tts": {
+        "n": 133,
+        "eer": 0.09767270624803878,
+        "recall@eer_thr": 0.8721804511278195
+      },
+      "fal:elevenlabs/tts/eleven-v4": {
+        "n": 122,
+        "eer": 0.21204538230714942,
+        "recall@eer_thr": 0.6229508196721312
+      },
+      "fal:fal-ai/bytedance/seed-speech/tts/v2": {
+        "n": 123,
+        "eer": 0.016181346499629948,
+        "recall@eer_thr": 0.983739837398374
+      },
+      "fal:fal-ai/chatterbox/text-to-speech/multilingual": {
+        "n": 138,
+        "eer": 0.007238042168531229,
+        "recall@eer_thr": 1.0
+      },
+      "fal:fal-ai/elevenlabs/tts/eleven-v3": {
+        "n": 130,
+        "eer": 0.0999507065395991,
+        "recall@eer_thr": 0.8615384615384616
+      },
+      "fal:fal-ai/inworld-tts": {
+        "n": 137,
+        "eer": 0.08898129247213299,
+        "recall@eer_thr": 0.8613138686131386
+      },
+      "fal:fal-ai/minimax/speech-02-hd": {
+        "n": 148,
+        "eer": 0.1829020525619277,
+        "recall@eer_thr": 0.7027027027027027
+      },
+      "fal:fal-ai/minimax/speech-2.8-hd": {
+        "n": 147,
+        "eer": 0.1481128764354904,
+        "recall@eer_thr": 0.7755102040816326
+      },
+      "fal:fal-ai/vibevoice/7b": {
+        "n": 68,
+        "eer": 0.3360581662832731,
+        "recall@eer_thr": 0.23529411764705882
+      },
+      "fal:google/gemini-3.8-flash-tts": {
+        "n": 144,
+        "eer": 0.0006572461386789574,
+        "recall@eer_thr": 1.0
+      },
+      "fal:heygen/heygen-voice": {
+        "n": 109,
+        "eer": 0.2180444213972812,
+        "recall@eer_thr": 0.47706422018348627
+      },
+      "fal:xai/tts/v1": {
+        "n": 125,
+        "eer": 0.16001971738416038,
+        "recall@eer_thr": 0.72
+      },
+      "kokoro": {
+        "n": 144,
+        "eer": 0.006922764450286624,
+        "recall@eer_thr": 0.9930555555555556
+      },
+      "openai_4omini": {
+        "n": 280,
+        "eer": 0.00032862306933945096,
+        "recall@eer_thr": 1.0
+      },
+      "openai_tts1hd": {
+        "n": 280,
+        "eer": 0.0004929346040091764,
+        "recall@eer_thr": 1.0
+      },
+      "resynth:dac_24k": {
+        "n": 300,
+        "eer": 0.5866294227188082,
+        "recall@eer_thr": 0.006666666666666667
+      },
+      "resynth:dac_44k": {
+        "n": 300,
+        "eer": 0.2700640814985212,
+        "recall@eer_thr": 0.4166666666666667
+      },
+      "resynth:encodec_1.5": {
+        "n": 300,
+        "eer": 0.10358911162230253,
+        "recall@eer_thr": 0.86
+      },
+      "resynth:encodec_6": {
+        "n": 300,
+        "eer": 0.0999507065395991,
+        "recall@eer_thr": 0.8566666666666667
+      },
+      "resynth:mimi": {
+        "n": 300,
+        "eer": 0.11037298718370031,
+        "recall@eer_thr": 0.8666666666666667
+      },
+      "shiftyspeech:Glow-TTS": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "shiftyspeech:Grad-TTS": {
+        "n": 300,
+        "eer": 0.013403439588125746,
+        "recall@eer_thr": 0.99
+      },
+      "shiftyspeech:VITS": {
+        "n": 300,
+        "eer": 0.07016266841932303,
+        "recall@eer_thr": 0.91
+      },
+      "shiftyspeech:XTTS": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "shiftyspeech:hfg_vocoded": {
+        "n": 300,
+        "eer": 0.0034740935480337583,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a01": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a02": {
+        "n": 300,
+        "eer": 0.00661956402672801,
+        "recall@eer_thr": 0.9933333333333333
+      },
+      "spoofceleb:a03": {
+        "n": 300,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a04": {
+        "n": 300,
+        "eer": 0.00032862306933945096,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a05": {
+        "n": 300,
+        "eer": 0.00032862306933945096,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a06": {
+        "n": 300,
+        "eer": 0.0006572461386789574,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a07": {
+        "n": 300,
+        "eer": 0.0004929346040091764,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a08": {
+        "n": 300,
+        "eer": 0.00032862306933945096,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a09": {
+        "n": 300,
+        "eer": 0.003309782013364033,
+        "recall@eer_thr": 1.0
+      },
+      "spoofceleb:a10": {
+        "n": 300,
+        "eer": 0.00032862306933945096,
+        "recall@eer_thr": 1.0
+      },
+      "xtts2": {
+        "n": 170,
+        "eer": 0.00016431153466972548,
+        "recall@eer_thr": 1.0
+      }
+    }
+  },
+  "max": {
+    "n": 22867,
+    "n_ai": 19824,
+    "eer": 0.049364244324753885,
+    "eer_thr": -1.7856322526931763,
+    "auc": 0.9813305494529977,
+    "tpr@fpr1%": 0.9430992736077481,
+    "tpr@fpr0.1%": 0.9114709443099274
+  }
+}
